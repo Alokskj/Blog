@@ -63,6 +63,8 @@
 
 .posttitle{
   font-size: 2.5rem;
+  padding: 2px;
+  text-transform: capitalize;
 }
 
 .postcontent{
@@ -73,10 +75,10 @@
 .date{
   display: flex;
   margin: 0 4px;
+  color: rgb(107, 104, 104);
 }
 .date i{
   font-weight: lighter;
-  color: gray;
   margin: 3px;
 }
 
