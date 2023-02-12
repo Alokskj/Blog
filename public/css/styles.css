@@ -1,35 +1,118 @@
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-.navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-}
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.footer-padding {
-	padding-bottom: 60px;
+.body{
+  min-height: 100vh;
 }
+.header {
+   display: flex;
+   width: 100%;
+   background-color: white ;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   font-size: 2.5rem;
+   font-family: sans-serif;
+}
+.title a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+
+}
+.profile i{
+  color: black;
+}
+
+.postscontainer{
+  margin: 10px 0 10px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.postcontainer{
+  margin: 6px;
+
+}
+
+
+.postimagecontainer{
+  display: flex;
+  
+}
+
+.postimage{
+  width: 85vw;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+}
+
+.postinfo{
+
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: black;
+  text-decoration: none;
+}
+
+.posttitle{
+  font-size: 2.5rem;
+}
+
+.postcontent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.date{
+  display: flex;
+  margin: 0 4px;
+}
+.date i{
+  font-weight: lighter;
+  color: gray;
+  margin: 3px;
+}
+
+.readmore{
+  margin: 0 8px 0 0;
+}
+.readmore a{
+  text-decoration: none;
+  color: gray;
+}
+
+.composecontainer{
+  padding: 4px 15px;
+}
+
+.postpage{
+  padding: 4px 15px;
+  
+}
+
+
 
 .footer {
-	position: absolute;
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	background-color: #1abc9c;
+  display: flex;
+  width: 100%;
+  background-color: transparent ;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-family: sans-serif;
 }
 
-.footer p {
-	margin-top: 25px;
-	font-size: 12px;
-  color: #fff;
+.footer a{
+  color: black;
+  text-decoration: none;
 }
+
+

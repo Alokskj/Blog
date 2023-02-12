@@ -1,8 +1,29 @@
 <%- include('partials/header') %> 
 
+<div class="postscontainer">
+<% posts.forEach((post)=>{ %>
+    
+  <div class="postcontainer">
+  <div class="postimagecontainer">
+     <img class="postimage"  src="<%= post.image %>">
+  </div>
+  <div class="postinfo">
+  <div class="posttitle">  
+    <p><%= post.title%> </p>
+   </div> 
+   <div class="postcontent">
+    <div class="date">
+        <i class="fa-regular fa-clock"></i>
+        <p>12 Feb, 2022</p>
+    </div>
+    <div class="readmore">
+        <a href="/posts/<%= post.title %>">Readmore</a>
+    </div>
+   
+   </div> 
+   </div> 
+   </div>
 
-<% posts.forEach((post)=>{ %> 
-    <h1><%= post.title%> </h2>
-    <p><%= post.content.substring(0, 100) + "..." %><a href="/posts/<%= post.title  %> ">Read More</a> </p>
     <% }) %> 
+</div>
 <%- include('partials/footer') %> 
