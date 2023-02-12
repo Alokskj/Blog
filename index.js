@@ -18,7 +18,7 @@ mongoose
     "mongodb+srv://alokskj:9814204411j@todocluster.u1jdnxy.mongodb.net/?retryWrites=true&w=majority/blog"
   )
   .then(console.log("connected to mongodb"))
-  .catch((error) => handleError(error));
+  
 
 app.get("/", async (req, res) => {
   posts = await blog.find({});
