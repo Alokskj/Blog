@@ -11,7 +11,7 @@ const blog = require("./src/work.js")
 //   content:"Lacus vel facilisis volutpat est velit egestas dui id ornare. Semper auctor neque vitae tempus quam. Sit amet cursus sit amet dictum sit amet justo. Viverra tellus in hac habitasse. Imperdiet proin fermentum leo vel orci porta. Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis molestie a iaculis at erat pellentesque adipiscing. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Odio euismod lacinia at quis risus sed vulputate odio ut. Cursus mattis molestie a iaculis at erat pellentesque adipiscing.",
 // }];
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb://127.0.0.1:27017/Blog')
+mongoose.connect('mongodb+srv://alokskj:9814204411j@todocluster.u1jdnxy.mongodb.net/?retryWrites=true&w=majority/blog')
 .then( console.log("connected to mongodb"))
 .catch(error => handleError(error));
 
