@@ -14,5 +14,15 @@
     "lodash": "^4.17.21",
     "mongoose": "^6.9.1"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alokskj/Blog.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Alokskj/Blog/issues"
+  },
+  "homepage": "https://github.com/Alokskj/Blog#readme",
   "description": ""
 }
