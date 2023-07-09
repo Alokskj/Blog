@@ -4,5 +4,8 @@
 <div class="postpage">
     <h1><%= postTitle %> </h2>
     <p><%= postContent %> </p>
+    <form action="/posts/<%= postId %>?_method=DELETE" method="POST">
+        <button type="submit">Delete Post</button>
+      </form>
     
 </div>
